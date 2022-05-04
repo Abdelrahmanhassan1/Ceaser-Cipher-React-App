@@ -80,8 +80,8 @@ function InputArea() {
     if (encryptMsg.shift !== "" && encryptMsg.message !== "") {
       encoded_msg = encryptMessage(encryptMsg.shift, encryptMsg.message);
       setEncryptMsg({
-        message: "",
-        shift: "",
+        message: encryptMsg.message,
+        shift: encryptMsg.shift,
       });
     } else {
       alert("Must Enter shift amount and Message");
@@ -137,8 +137,8 @@ function InputArea() {
       decoded_msg = DecryptMessage(decryptMsg.shift, decryptMsg.message);
 
       setDecryptMsg({
-        message: "",
-        shift: "",
+        message: decryptMsg.message,
+        shift: decryptMsg.shift,
       });
     } else {
       alert("Must Enter shift amount and Message");

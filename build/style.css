@@ -52,7 +52,29 @@ footer p {
   text-align: center;
   padding: 10px;
   font-size: 1.5em;
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 3px;
+  margin: 10px;
+}
+
+.encrypt-container > h1,
+.decrypt-container > h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  background-color: #ccc;
+  border-radius: 10px;
+  padding: 5px;
+  letter-spacing: 3px;
+  margin: 10px;
+}
+
+.encrypt-container > h2,
+.decrypt-container > h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  padding: 5px;
+  letter-spacing: 2px;
+  width: 400px;
 }
 .encrypt-container > textarea,
 .decrypt-container > textarea {
@@ -81,16 +103,16 @@ footer p {
 
 .encrypt-container > button,
 .decrypt-container > button {
-  margin: 10px;
+  margin: 20px;
   padding: 10px;
   font-weight: 900;
   background: #1abc9c;
   color: white;
-  font-size: 20px;
+  font-size: 25px;
   border: none;
   border-radius: 20px;
   width: max-content;
-  height: 40px;
+  height: 50px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
   cursor: pointer;
   outline: none;
