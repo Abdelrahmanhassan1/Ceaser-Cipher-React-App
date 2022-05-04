@@ -8,5 +8,23 @@ Algorithm explanation is supported here <a href="https://en.wikipedia.org/wiki/C
 
 ```
 npm install
-npm run
+npm start
 ```
+
+<hr>
+
+> Application Demo:
+
+<img src="./public/demo.gif" >
+
+<hr>
+
+> Try The Application Yourself For Free:
+
+<a href="https://resilient-chaja-a693ed.netlify.app/">Caeser Cipher</a>
+
+<hr>
+
+> Support Me Here:
+
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/abdelrahmanHa)
